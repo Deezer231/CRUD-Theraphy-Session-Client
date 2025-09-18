@@ -11,6 +11,9 @@ A full-stack web app for managing therapists, clients, and therapy sessions. Use
 - Session scheduling and tracking
 - Animated background using Vanta.js Birds effect
 
+<img width="1919" height="926" alt="Screenshot 2025-09-18 151815" src="https://github.com/user-attachments/assets/33486c5a-06b8-4fe5-9478-a58bf8f698cc" />
+  
+
 ## How It Works
 - Users register and login to access the dashboard.
 - Therapists, clients, and sessions can be created, viewed, updated, and deleted.

@@ -1,0 +1,98 @@
+/* Home Page Styles */
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .home-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .home-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+  }
+  
+  .dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .dashboard-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .therapist-card {
+    border-top: 4px solid #3498db;
+  }
+  
+  .client-card {
+    border-top: 4px solid #2ecc71;
+  }
+  
+  .session-card {
+    border-top: 4px solid #9b59b6;
+  }
+  
+  .card-content h2 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .card-content p {
+    color: #7f8c8d;
+  }
+  
+  .card-icon {
+    font-size: 2.5rem;
+    text-align: right;
+    margin-top: 1rem;
+  }
+  
+  .quick-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .stat-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  .stat-card h3 {
+    margin-top: 0;
+    color: #7f8c8d;
+    font-size: 1rem;
+  }
+  
+  .stat-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 0.5rem 0 0;
+  }
